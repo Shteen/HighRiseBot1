@@ -18,8 +18,8 @@ class Bot(BaseBot):
 
 
 if __name__ == "__main__":
-    room_id = "YOUR_ROOM_ID"
-    token = "YOUR_API_TOKEN"
+    room_id = "6ab061eeaba5e084307f6b50"
+    token = "cfeae7e59e084ceef7c10f09424870c0b66b9b12b30cde66b5caf69517bd385a"
 
     definitions = [BotDefinition(Bot(), room_id, token)]
     asyncio.run(__main__.main(definitions))
